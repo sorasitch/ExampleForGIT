@@ -41,7 +41,7 @@ Lightbox expanded
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/623876d2-51cd-4bcd-83ba-74cb70e66417" />
 
 
-# final resualt
+# Final result
 🚀 NEXUS Futuristic Data Dashboard
 What was implemented
 Python (python/)
