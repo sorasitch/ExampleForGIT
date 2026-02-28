@@ -1,4 +1,4 @@
-#(1) ExampleForGIT
+# 1).ExampleForGIT
 i used this repo to practice the features in GIT only.
 
 # Original prompt
