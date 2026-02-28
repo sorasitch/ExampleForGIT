@@ -1,0 +1,23 @@
+{
+  "name": "futuristic-dashboard",
+  "version": "1.0.0",
+  "description": "Futuristic data-visualization dashboard powered by Python charts and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "python3 ../python/generate_charts.py"
+  },
+  "keywords": [
+    "dashboard",
+    "charts",
+    "futuristic",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1"
+  }
+}

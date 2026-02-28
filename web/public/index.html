@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS · Futuristic Data Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Starfield canvas ─────────────────────────────────────────────── -->
+  <canvas id="starfield"></canvas>
+
+  <!-- ── Header ──────────────────────────────────────────────────────── -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">NEXUS</span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <nav class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-cat="all">ALL</button>
+        <button class="filter-btn" data-cat="Technology">TECHNOLOGY</button>
+        <button class="filter-btn" data-cat="Space">SPACE</button>
+        <button class="filter-btn" data-cat="Energy">ENERGY</button>
+        <button class="filter-btn" data-cat="Artificial Intelligence">A.I.</button>
+      </nav>
+      <div class="clock" id="clock">00:00:00 UTC</div>
+    </div>
+  </header>
+
+  <!-- ── Hero banner ─────────────────────────────────────────────────── -->
+  <section class="hero">
+    <p class="hero-eyebrow">DATA INTELLIGENCE PLATFORM · v2.0</p>
+    <h1 class="hero-title">FUTURE&nbsp;<span class="glow-word">HORIZONS</span></h1>
+    <p class="hero-sub">
+      Predictive analytics across Technology, Space, Energy &amp; Artificial Intelligence
+    </p>
+    <div class="hero-divider"></div>
+  </section>
+
+  <!-- ── Chart grid ──────────────────────────────────────────────────── -->
+  <main class="grid" id="chartGrid">
+    <!-- cards injected by JS -->
+  </main>
+
+  <!-- ── Lightbox ────────────────────────────────────────────────────── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <div class="lb-inner">
+      <p class="lb-category" id="lbCategory"></p>
+      <h2 class="lb-title" id="lbTitle"></h2>
+      <p class="lb-subtitle" id="lbSubtitle"></p>
+      <img class="lb-img" id="lbImg" src="" alt="" />
+    </div>
+  </div>
+
+  <!-- ── Footer ──────────────────────────────────────────────────────── -->
+  <footer>
+    <span>NEXUS DASHBOARD · Generated with Python &amp; Matplotlib · Served by Node.js / Express</span>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
