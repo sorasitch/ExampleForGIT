@@ -1,7 +1,7 @@
 # 1). ExampleForGIT
 i used this repo to practice the features in GIT only.
 
-# Original prompt
+#2). Original prompt
 Original prompt
 [rule] you are expert in python and Node.JS
 [context] this is the requirement.
@@ -12,7 +12,7 @@ Original prompt
 [format] Pls use python and Node.JS as long as possible. it is ok if need to use another language code.
 
 
-#2). Copilot
+#3). Copilot
 Builds a full-stack futuristic data dashboard from scratch: Python generates neon-styled charts from synthetic datasets; Node.js/Express serves them via an interactive SPA.
 
 Python (python/generate_charts.py)
@@ -42,7 +42,7 @@ Lightbox expanded
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/623876d2-51cd-4bcd-83ba-74cb70e66417" />
 
 
-#3). Final result
+#4). Final result
 🚀 NEXUS Futuristic Data Dashboard
 What was implemented
 Python (python/)
