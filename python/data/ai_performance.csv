@@ -1,0 +1,12 @@
+year,task,ai,human
+2015,Image Recognition,96.4,94.9
+2016,Speech Recognition,91.2,94.0
+2017,Go (game),99.8,60.0
+2018,Reading Comprehension,87.4,86.8
+2019,Language Modeling,89.0,89.8
+2020,Protein Folding,92.4,70.0
+2021,Code Generation,67.7,72.3
+2022,Text Reasoning,90.4,89.8
+2023,Multimodal Bench.,88.7,86.4
+2024,Complex Reasoning,84.6,83.1
+2025,Scientific Research,82.0,80.5

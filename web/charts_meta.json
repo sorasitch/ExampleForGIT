@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tech_adoption",
+    "title": "Technology Adoption Forecast",
+    "subtitle": "Adoption rates for breakthrough technologies (2025\u20132060)",
+    "image": "/images/chart_tech_adoption.png",
+    "category": "Technology"
+  },
+  {
+    "id": "space_economy",
+    "title": "Space Economy Revenue by Sector",
+    "subtitle": "Projected revenue in USD Billion (2025\u20132055)",
+    "image": "/images/chart_space_economy.png",
+    "category": "Space"
+  },
+  {
+    "id": "energy_transition",
+    "title": "Global Energy Transition",
+    "subtitle": "Share of total energy by source (2020\u20132060)",
+    "image": "/images/chart_energy_transition.png",
+    "category": "Energy"
+  },
+  {
+    "id": "ai_performance",
+    "title": "AI vs Human Performance",
+    "subtitle": "Benchmark scores across major AI milestones",
+    "image": "/images/chart_ai_performance.png",
+    "category": "Artificial Intelligence"
+  }
+]
